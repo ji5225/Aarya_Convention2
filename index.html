@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aarya Convention - The Future of Events</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/service-popup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo" style="display: flex; align-items: center; text-decoration: none;">
+                <img src="assets/logo/aarya_logo_3.png" alt="Aarya Convention Logo" style="height:52px; width:auto; transform: scale(1.1); transform-origin: left center;">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Experience</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#facilities">Spaces</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Book</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2 class="fade-in">The Future of Events</h2>
+                <h1 class="fade-in">Aarya<span class="highlight">.</span> Convention</h1>
+                <p class="fade-in">Where Luxury Meets Innovation</p>
+                <div class="cta-container">
+                    <a href="#contact" class="cta-button primary">Book Your Event</a>
+                    <a href="#gallery" class="cta-button secondary">Explore Spaces</a>
+                </div>
+            </div>
+            <div class="hero-stats fade-in">
+                <div class="stat-card">
+                    <i class="fas fa-users"></i>
+                    <h3 id="guest-counter" class="counter">0</h3>
+                    <p>Guest Capacity</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-car"></i>
+                    <h3>8</h3>
+                    <p>Acres of Parking</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-star"></i>
+                    <h3>5*</h3>
+                    <p>Luxury Rating</p>
+                </div>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Experience</h2>
+                <p class="subtitle">Where Luxury Meets Innovation</p>
+            </div>
+            <div class="about-content">
+                <div class="about-features">
+                    <div class="feature-card" style="background-image: url('assets/photos/luxury_accomodation/luxury-bedroom-interior-with-rich-furniture-scenic-view-from-walkout-deck.jpg.webp')">
+                        <div class="feature-overlay"></div>
+                        <div class="feature-content">
+                            <div class="feature-icon">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                            <h3>Luxury Defined</h3>
+                            <p>Experience unparalleled comfort and elegance in our premium facilities.</p>
+                        </div>
+                    </div>
+                    <div class="feature-card" style="background-image: url('assets/photos/function_hall/led-lamps-chandeliers-indoors.jpg.webp')">
+                        <div class="feature-overlay"></div>
+                        <div class="feature-content">
+                            <div class="feature-icon">
+                                <i class="fas fa-infinity"></i>
+                            </div>
+                            <h3>Infinite Possibilities</h3>
+                            <p>From grand weddings to corporate events, we accommodate your vision.</p>
+                        </div>
+                    </div>
+                    <div class="feature-card" style="background-image: url('assets/photos/corporate_space/corporate-conferences-room-editorial.jpg.webp')">
+                        <div class="feature-overlay"></div>
+                        <div class="feature-content">
+                            <div class="feature-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <h3>Next-Gen Technology</h3>
+                            <p>State-of-the-art facilities for the modern event experience.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p class="subtitle">Tailored to Your Every Need</p>
+            </div>
+            <div class="services-slider">
+                <div class="service-slide">
+                    <div class="service-item luxury-bg">
+    <div class="service-content-glass">
+                        <div class="service-icon">
+                            <i class="fas fa-bed"></i>
+                        </div>
+                        <h3>Luxury Accommodation</h3>
+                        <p><span id="rooms-counter">40</span> well-appointed rooms with premium comfort</p>
+                        <div class="service-features">
+                            <span>24/7 Service</span>
+                        </div>
+                        <button class="service-more-info-btn" data-service="luxury-accommodation" aria-label="More Info about Luxury Accommodation">More Info</button>
+                    </div>
+                </div>
+                <div class="service-slide">
+                    <div class="service-item catering-bg">
+    <div class="service-content-glass">
+                            <div class="service-icon">
+                                <i class="fas fa-utensils"></i>
+                            </div>
+                            <h3>In-House Catering</h3>
+                            <p>Exceptional catering services with diverse menu options</p>
+                            <div class="service-features">
+                                <span>Custom Menus</span>
+                                <span>Live Stations</span>
+                                <span>Organic Options</span>
+                            </div>
+                            <button class="service-more-info-btn" data-service="catering" aria-label="More Info about In-House Catering">More Info</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-slide">
+                    <div class="service-item corporate-bg">
+    <div class="service-content-glass">
+                            <div class="service-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h3>Corporate Spaces</h3>
+                        <p>Fully equipped venues for business events</p>
+                        <div class="service-features">
+                            <span>Smart Tech</span>
+                            <span>Flexible Layouts</span>
+                            <span>Business Lounge</span>
+                        </div>
+                        <button class="service-more-info-btn" data-service="corporate" aria-label="More Info about Corporate Spaces">More Info</button>
+                    </div>
+                </div>
+                <div class="service-slide">
+                    <div class="service-item parking-bg">
+    <div class="service-content-glass">
+                            <div class="service-icon">
+                            <i class="fas fa-car"></i>
+                        </div>
+                        <h3>Expansive Parking</h3>
+                        <p><span id="parking-counter">8</span>-acre parking facility for all your guests</p>
+                        <div class="service-features">
+                            <span>24/7 Security</span>
+                            <span>EV Charging</span>
+                            <span>Smart Navigation</span>
+                        </div>
+                        <button class="service-more-info-btn" data-service="parking" aria-label="More Info about Expansive Parking">More Info</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="video" class="video-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Virtual Tour</h2>
+                <p>Experience our facilities through our virtual tour video</p>
+            </div>
+            <div class="video-container redesigned">
+                <video id="virtualTourVideo" src="assets/videos/hotel_tour_video1.mp4" autoplay loop muted playsinline></video>
+                <div class="custom-controls">
+                    <button id="playPauseBtn" aria-label="Play/Pause"><i class="fas fa-pause"></i></button>
+                    <button id="fullscreenBtn" aria-label="Fullscreen"><i class="fas fa-expand"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="facilities" class="facilities">
+        <div class="container">
+            <div class="section-header">
+                <h2>Event Spaces</h2>
+                <p class="subtitle">Transform Your Vision into Reality</p>
+            </div>
+            <div class="facilities-grid">
+                <div class="facility-card">
+                    <div class="facility-image wedding-bg"></div>
+                    <div class="facility-content">
+                        <h3>Grand Event Hall</h3>
+                        <div class="facility-stats">
+                            <div class="stat">
+                                <h4 id="wedding-capacity">6000+</h4>
+                                <p>Guest Capacity</p>
+                            </div>
+                            <div class="stat">
+                                <h4>24/7</h4>
+                                <p>Support</p>
+                            </div>
+                        </div>
+                        <p>Our magnificent Grand Function Hall is perfect for large-scale celebrations with modern amenities and elegant decor that will make your event unforgettable.</p>
+                        <a href="#" class="facility-btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-image conference-bg"></div>
+                    <div class="facility-content">
+                        <h3>Corporate Spaces</h3>
+                        <div class="facility-stats">
+                            <div class="stat">
+                                <h4 id="conference-capacity">200+</h4>
+                                <p>Seating Capacity</p>
+                            </div>
+                            <div class="stat">
+                                <h4>HD</h4>
+                                <p>Video Conferencing</p>
+                            </div>
+                        </div>
+                        <p>Professional meeting spaces designed for productivity, equipped with cutting-edge technology and flexible layouts to suit any business need.</p>
+                        <a href="#" class="facility-btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-image banquet-bg"></div>
+                    <div class="facility-content">
+                        <h3>Parking Space</h3>
+                        <div class="facility-stats">
+                            <div class="stat">
+                                <h4>8-Acre</h4>
+                                <p>Spacious Facility</p>
+                            </div>
+                            <div class="stat">
+                                <h4>24/7</h4>
+                                <p>Security</p>
+                            </div>
+                        </div>
+                        <p>Ample 8-acre parking facility ensuring convenience and security for all your guests, with dedicated areas for VIP and special needs parking.</p>
+                        <a href="#" class="facility-btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Gallery</h2>
+                <p>Explore our luxury facilities and memorable events</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-card">
+                    <div class="gallery-img-wrap">
+                        <img src="assets/Wedding_Hall.jpg" alt="Wedding Hall">
+                        <div class="gallery-hover">
+                            <h3>Wedding Hall</h3>
+                            <p>Perfect for grand celebrations</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img-wrap">
+                        <img src="assets/Corporate_Spaces.jpg" alt="Corporate Spaces">
+                        <div class="gallery-hover">
+                            <h3>Exhibition Space</h3>
+                            <p>Modern and spacious</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img-wrap">
+                        <img src="assets/Banquet_Hall.jpg" alt="Banquet Hall">
+                        <div class="gallery-hover">
+                            <h3>Banquet Hall</h3>
+                            <p>Perfect for corporate events</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img-wrap">
+                        <img src="assets/Conference_Room.jpg" alt="Conference Room">
+                        <div class="gallery-hover">
+                            <h3>Conference Room</h3>
+                            <p>State-of-the-art facilities</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img-wrap">
+                        <img src="assets/Expansive_Parking.jpg" alt="Expansive Parking">
+                        <div class="gallery-hover">
+                            <h3>Expansive Parking</h3>
+                            <p>Spacious parking for all your guests</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="gallery-img-wrap">
+                        <img src="assets/luxury_accomodation.jpg" alt="Luxury Accommodation">
+                        <div class="gallery-hover">
+                            <h3>Luxury Suite</h3>
+                            <p>Elegant accommodation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Book Your Event</h2>
+                <p class="subtitle">Let's Create Your Perfect Event</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>
+                            <a href="https://maps.app.goo.gl/4PmrPPkYWjyZPMEfA" target="_blank" rel="noopener noreferrer" class="address-link">
+                                Janwada, Shankarpally Main Road<br>Hyderabad, Telangana
+                            </a>
+                        </p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p class="phone-numbers">
+                            <a href="tel:+919077299299" class="phone-link">+91 9077299299</a>
+                            <span class="phone-separator">|</span>
+                            <a href="tel:+919077399399" class="phone-link">+91 9077399399</a>
+                        </p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>
+                            <a href="mailto:info@aaryaconvention.com" class="email-link">info@aaryaconvention.com</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="eventBookingForm" class="booking-form">
+                        <div class="form-columns">
+                            <div class="form-column">
+                                <div class="form-group">
+                                    <input type="text" id="fullName" name="fullName" placeholder="Full Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" id="email" name="email" placeholder="Email Address" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                                </div>
+                            </div>
+                            <div class="form-column">
+                                <div class="form-group">
+                                    <select id="eventType" name="eventType" required>
+                                        <option value="">Event Type *</option>
+                                        <option value="wedding">Wedding</option>
+                                        <option value="corporate">Corporate Event</option>
+                                        <option value="conference">Conference</option>
+                                        <option value="birthday">Birthday Party</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <input type="date" id="eventDate" name="eventDate" placeholder="dd-mm-yyyy" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="number" id="guestCount" name="guestCount" placeholder="Expected Guests" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group full-width">
+                            <textarea id="specialRequirements" name="specialRequirements" placeholder="Additional details about your event..."></textarea>
+                            <div id="formDetails" class="form-details" style="display: none; margin-top: 15px; padding: 10px; background: #f8f9fa; border-radius: 4px; border-left: 3px solid #c9a74d;">
+                                <p><strong>Your Details:</strong></p>
+                                <div id="userDetails"></div>
+                            </div>
+                        </div>
+                        <button type="submit" class="submit-btn">Submit Booking Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/logo/aarya_logo_3.png" alt="Aarya Convention" class="footer-logo-img">
+                    <p class="tagline">Hyderabad's Biggest Resort Convention</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <a href="#home">Home</a>
+                    <a href="#about">Experience</a>
+                    <a href="#services">Services</a>
+                    <a href="#facilities">Spaces</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#contact">Book</a>
+                </div>
+                <div class="footer-contact">
+                    <h3>REACH US</h3>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>
+                                <a href="https://maps.app.goo.gl/4PmrPPkYWjyZPMEfA" target="_blank" rel="noopener noreferrer" class="address-link">
+                                    Janwada, Shankarpally Main Road<br>Hyderabad, Telangana
+                                </a>
+                            </p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <p class="phone-numbers">
+                                <a href="tel:+919077299299" class="phone-link">+91 9077299299</a>
+                                <span class="phone-separator">|</span>
+                                <a href="tel:+919077399399" class="phone-link">+91 9077399399</a>
+                            </p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>
+                                <a href="mailto:info@aaryaconvention.com" class="email-link">info@aaryaconvention.com</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="social-section">
+                        <h3>Connect With Us</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 Aarya Convention. All rights reserved.</p>
+                    <p>Designed with <i class="fas fa-heart"></i> by Team_beOnd</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+    <!-- Service Popup Modal -->
+    <div id="service-popup" class="service-popup">
+        <div class="service-popup-content">
+            <button class="service-popup-close" aria-label="Close popup">&times;</button>
+            <div class="service-popup-body">
+                <h2 class="service-popup-title"></h2>
+                <div class="service-popup-description"></div>
+                <div class="service-popup-gallery"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/service-popup.js"></script>
+</body>
+</html>
